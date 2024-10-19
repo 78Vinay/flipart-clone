@@ -1,0 +1,234 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color:white;
+}
+
+/* Header Section */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: yellow;
+}
+
+.header-container .logo img {
+    width: 150px;
+}
+
+.header-container .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px 0 0 2px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+.header-options a {
+    margin-left: 20px;
+    color:yellowgreen;
+    text-decoration: none;
+}
+
+/* Navigation Bar */
+nav {
+    background-color:white;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:lightgrey;
+}
+
+/* Banner Section */
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Product Section */
+.products {
+    margin: 20px;
+    padding: 20px;
+    background-color: green;
+}
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.product-item {
+    background-color:white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid blueviolet;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    margin: 10px 0;
+}
+
+.product-item p {
+    color: red;
+}
+
+/* Footer Section */
+footer {
+    background-color:green;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color:white;
+}
+
+/* Header Section */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: green;
+}
+
+.header-container .logo img {
+    width: 150px;
+}
+
+.header-container .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px 0 0 2px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+.header-options a {
+    margin-left: 20px;
+    color:yellowgreen;
+    text-decoration: none;
+}
+
+/* Navigation Bar */
+nav {
+    background-color:lightgreen;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:lightgrey;
+}
+
+/* Banner Section */
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Product Section */
+.products {
+    margin: 20px;
+    padding: 20px;
+    background-color:yellow;
+}
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.product-item {
+    background-color:white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid blueviolet;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    margin: 10px 0;
+}
+
+.product-item p {
+    color: red;
+}
+
+/* Footer Section */
+footer {
+    background-color:green;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
